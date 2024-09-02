@@ -41,7 +41,7 @@ amqp.connect(amqpUrl, (err, connection) => {
         });
 
         app.listen(port, () => {
-            console.log(`Server is listening at http://localhost:${port}`);
+            console.log(`Server is up and running`);
         });
     });
 });
