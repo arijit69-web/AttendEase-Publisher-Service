@@ -9,7 +9,6 @@ const port = 3001;
 
 const amqpUrl = process.env.RABBITMQ_URL;
 const queueName = 'attendease-queue';
-console.log(amqpUrl)
 
 app.use(bodyParser.json());
 app.use(cors());
